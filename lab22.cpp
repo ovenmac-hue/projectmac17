@@ -29,7 +29,7 @@ ComplexNumber operator+(double p,const ComplexNumber &c){
 }
 
 ComplexNumber ComplexNumber::operator-(const ComplexNumber &c){
-	return ComplexNumber(real-c.real,imag-c.imag);
+	return ComplexNumber(real-c.real,imag-c.imag);  
 }
 
 ComplexNumber operator-(double q,const ComplexNumber &c){
